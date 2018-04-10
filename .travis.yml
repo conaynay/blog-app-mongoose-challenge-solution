@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: ZNzZGvTnP8BmBQsjKp4i5n4k9Y8rzfOV36kn6H+Y2Aaf4N1wUmZx3cDLNCIvTQZOqx+9e6W6oj90iHi7ICFVp/PqYEgHCoQDn27xOBXSF7dbg3tiIOte/uugWokIxBFFjgiEcko0KCjYkKwep7e/tw5ucdeMBJPsgU+LFDqGHQWeDa/R6Loab4jumzPZTLKe33joEnFk+Z2kqbvBW6eT36MvDRZMiG7b5hLbGr4SX4LKwrDvU2ppSZNcijZRdbKe/JBQvfpfhlQd5OiDWKm1RXk17K1BFRT0xuYi7RqdW4WAan4VvrbIFekxSaBrcKW3OZdCM6C6HcI0vWBfbYtACYoj33iiSxFYPg0Ca0/3R8MgIEr46U7rnpSSvT/ctXC3BnNgYjUB9TBTpCMJckXac0P1yUYei1eHTcfvjVdcvrCJDwczJTUQJZaZzVmUFXkk0/PoGkkBsKzAnXALsVum+GVwAvAoDPsI0i+QucZp91yTr7KTU2tXmO3NydGDzY8OroY+Afl0Vyilddigtj1ff4HJ+TzWsjMcXAv5rCvVn/jnDX2tGfdqy26TcJTFjyB+iuDzRvon2XDZ6sbP23nfXdkn1UlpucaQbLC7fqteDBlwtYnp1Xlt1UQU0+kIjXx4cv2VHbr/aVETci7ZGmEUe1vzv+eEvN8cFwyxXN9rGXE=
+  app: vast-mountain-49684
+  on:
+    repo: conaynay/blog-app-mongoose-challenge-solution
