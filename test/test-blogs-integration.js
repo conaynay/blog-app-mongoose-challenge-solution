@@ -41,7 +41,7 @@ function tearDownDb() {
 
 describe('Blog posts API resource', function() {
   before(function() {
-    return runServer(TEST_DATABASE_URL);
+    return runServer(TEST_DATABASE_URL); 
   });
   beforeEach(function(){
     return seedPostData();
